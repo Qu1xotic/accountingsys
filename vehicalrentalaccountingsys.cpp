@@ -1,9 +1,4 @@
 #include<iostream.h>
-#include<conio.h>
-#include<stdio.h>
-#include<fstream.h>
-#include<string.h>
-#include<ctype.h>
 //Function Prototypes
 void EnterVName(char []);
 void DeleteVehicle (char []);
