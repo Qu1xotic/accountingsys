@@ -22,8 +22,8 @@ float Dist;
 public:
 void Enter()
 {
-cout<<"Enter vehicle Id :";cin>>VId;
-cout<<"Enter vehicle name :";gets(VehicleName);
+cout<<"Enter Vehicle ID :";cin>>VId;
+cout<<"Enter Vehicle name :";gets(VehicleName);
 cout<<"Enter Driver name:";gets(EmpName);
 cout<<"Distance travelled:";cin>>Dist;
 }
@@ -53,10 +53,10 @@ return ifare()-icost();
 }
 void Display()
 {
-cout<<"Vehicle Id :"<<VId<<endl;
-cout<<"Vehicle name :"<<VehicleName<<endl;
-cout<<"Driver name :"<<EmpName<<endl;
-cout<<"Distance travelled:"<<Dist<<endl;
+cout<<"Vehicle Id :"<<VId<<endl; //displaying vehicle id
+cout<<"Vehicle name :"<<VehicleName<<endl; //displaying vehicle name
+cout<<"Driver name :"<<EmpName<<endl;//displaying drivers name
+cout<<"Distance travelled:"<<Dist<<endl;//displaying distance travelled
 cout<<"Fare :"<<ifare()<<endl;
 cout<<"Cost incurred to company:"<<icost()<<endl;
 cout<<"Profit:"<<iprofit()<<endl;
@@ -176,7 +176,7 @@ v.Display();
 found++;
 }
 }
-if (found==0)
+if (!found)
 cout<<"Record not found"<<endl;
 F.close();
 }
