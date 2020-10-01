@@ -22,7 +22,9 @@ float Dist;
 public:
 void Enter()
 {
+
 cout<<"Enter vehicle Id :";cin>>VId;//inputting vehilce id
+cout<<"Enter vehicle Id :";cin>>VId;//ask user to input vehicle id
 cout<<"Enter vehicle name :";gets(VehicleName);
 cout<<"Enter Driver name:";gets(EmpName);
 cout<<"Distance travelled:";cin>>Dist;
@@ -193,6 +195,7 @@ if (strcmpi(v.VName(),Name)== 0)
 {
 v.Display();
 found++;
+cout<<"FOUND!";
 }
 }
 Project: <Vehicle Rental Accounting System> Developed By <Dhairya Sethi, Dhruv Agrawal> Page:#9/14
