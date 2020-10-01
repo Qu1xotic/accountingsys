@@ -193,6 +193,7 @@ if (strcmpi(v.VName(),Name)== 0)
 {
 v.Display();
 found++;
+cout<<"FOUND!";
 }
 }
 Project: <Vehicle Rental Accounting System> Developed By <Dhairya Sethi, Dhruv Agrawal> Page:#9/14
