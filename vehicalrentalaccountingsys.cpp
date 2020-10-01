@@ -22,7 +22,7 @@ float Dist;
 public:
 void Enter()
 {
-cout<<"Enter vehicle Id :";cin>>VId;
+cout<<"Enter vehicle Id :";cin>>VId;//ask user to input vehicle id
 cout<<"Enter vehicle name :";gets(VehicleName);
 cout<<"Enter Driver name:";gets(EmpName);
 cout<<"Distance travelled:";cin>>Dist;
